@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Material CV/Resume/Vcard/Portfolio by Hencework.</title>
+		<meta name="description" content="Matresume is a material CV / Resume / Vcard / Portfolio HTML5 template by hencework." />
+		<meta name="keywords" content="material design, resume, responsive template, cv, multipurpose, portfolio, html5 template, themeforest.net, bootstrap, html5, creative, landing page, sass, clean, design, modern, angular js," />
+		<meta name="author" content="hencework"/>
+		
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	
+	<body id="body" data-ng-app="contactApp">
+		
+		<!--Preloader-->
+		<div class="preloader-it">
+			<div class="mdl-spinner mdl-js-spinner is-active is-upgraded" data-upgraded=",MaterialSpinner"><div class="mdl-spinner__layer mdl-spinner__layer-1"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-2"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-3"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-4"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div></div>
+		</div>
+		<!--/Preloader-->
+		
+		<!--Main Wrapper-->
+		<div class="main-wrapper">
+		
+			<!--Bg Image-->
+			<div class="bg-struct bg-img"></div>
+			<!--/Bg Image-->
+			
+			<div class="mdl-js-layout mdl-layout--fixed-header">
+				
+				
+				<!--Left Sidebar-->
+				<div class="mdl-layout__drawer">
+					<div class="nicescroll-bar">
+						<div class="drawer-profile-wrap">
+							<div class="candidate-img-drawer mt-25 mb-20"></div>
+							<span class="candidate-name block mb-10 text-center">benjamin sirge</span>
+							<ul class="social-icons  mb-30">
+								<li>
+									<a class="facebook-link" href="#">
+										<i id="tt11" class="zmdi zmdi-facebook"></i>
+										<div class="mdl-tooltip" data-mdl-for="tt11">
+											facebook
+										</div>
+									</a>
+								<li>
+									<a class="linkedin-link" href="#">
+										<i id="tt13" class="zmdi zmdi-linkedin"></i>
+										<div class="mdl-tooltip" data-mdl-for="tt13">
+											linkedin
+										</div>
+									</a>
+								</li>
+								<li>
+									<a class="instagram-link" href="#">
+										<i id="tt15" class="zmdi zmdi-instagram"></i>
+										<div class="mdl-tooltip" data-mdl-for="tt15">
+											instagram
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="mdl-scroll-spy-2">
+							<ul class="mdl-navigation">
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#body">
+										<i class="zmdi zmdi-border-color pr-15"></i>
+										<span class="font-capitalize">about</span>
+									</a>
+								</li>	
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#experience_sec">
+										<i class="zmdi zmdi-shield-check pr-15"></i>
+										<span class="font-capitalize">experience</span>
+									</a>
+								</li>	
+							</ul>
+						</div>
+						<div class="drawer-footer mt-50 mb-30 text-center">
+							<p class="font-12 mt-10">Feisaladitya &copy; 2022.</p>
+						</div>
+					</div>
+				</div>
+				<!--/Left Sidebar-->
+				
+				<!--Main Content-->
+				<div class="main-content relative">
+					<div class="container">
+						
+						<!--About Sec-->
+						<section class="about-sec mt-180 mt-sm-120  mb-30">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="mdl-card mdl-shadow--2dp">
+										<div class="row">
+											<div class="col-md-5 col-xs-12 mb-30">
+												<div class="candidate-img mb-35"></div>
+												<ul class="social-icons">
+													<li>
+														<a class="facebook-link" href="#">
+															<i id="tt1" class="zmdi zmdi-facebook"></i>
+															<div class="mdl-tooltip" data-mdl-for="tt1">
+																facebook
+															</div>
+														</a>
+													</li>
+													<li>
+														<a class="linkedin-link" href="#">
+															<i id="tt3" class="zmdi zmdi-linkedin"></i>
+															<div class="mdl-tooltip" data-mdl-for="tt3">
+																linkedin
+															</div>
+														</a>
+													</li>
+														<a class="instagram-link" href="#">
+															<i id="tt5" class="zmdi zmdi-instagram"></i>
+															<div class="mdl-tooltip" data-mdl-for="tt5">
+																instagram
+															</div>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-7 col-xs-12">
+												<div class="info-wrap">
+													<h1>Feisal Aditya</h1>
+													<h5 class="mt-20 font-grey">Freelancer</h5>
+													<div class="mt-30">
+														<a id="download_cv" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-green font-white mr-10" href="#">download cv</a>
+														<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white" href="#contact_sec" data-scroll>contact</a>
+													</div>
+												</div>
+												<ul class="profile-wrap mt-50">
+													<li>
+														<div class="profile-title">age</div>
+														<div class="profile-desc">33</div>
+													</li>
+													<li>
+														<div class="profile-title">address</div>
+														<div class="profile-desc">
+															Cipondoh, Kota Tangerang, Banten
+														</div>
+													</li>
+													<li>
+														<div class="profile-title">email</div>
+														<div class="profile-desc">
+															feisaladitya@gmail.com
+														</div>
+													</li>
+													<li>
+														<div class="profile-title">phone</div>
+														<div class="profile-desc">
+															+62 8577 251 8820
+														</div>
+													</li>
+													<li>
+														<div class="profile-title">freelance</div>
+														<div class="profile-desc relative">Available
+															<i id="datepickopn" class="zmdi zmdi-calendar-check font-green pl-5"></i>
+															<div id='datepicker1' class='datepicker'></div>
+														</div>
+														
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</section>
+						<!--/About Sec-->		
+											
+						<!--Experience Sec-->
+						<section id="experience_sec" class="experience-sec sec-pad-top-sm">
+							<h2 class="mb-30">experience</h2>
+							<div class="timeline-wrap  overflow-hide mb-30">
+								<ul class="timeline">
+									<li>
+										<div class="timeline-badge">
+											<i class="zmdi zmdi-case font-blue"></i>
+										</div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+											<div class="timeline-heading">
+												<h4 class="mb-10">UI/UX Designer</h4>
+												<span class="duration mb-5">Mar 2014 - present</span>
+												<span class="institution">Fakebook</span>
+											</div>
+											<div class="timeline-body">
+												<p class="mt-25">Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+											</div>
+										</div>
+									</li>
+									
+									<li class="timeline-inverted">
+										<div class="timeline-badge">
+											<i class="zmdi zmdi-format-color-text font-green"></i>
+										</div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Art Director</h4>
+												<span class="duration mb-5">Jul 2013 — Mar 2014</span>
+												<span class="institution">hencework</span>
+											</div>
+											<div class="timeline-body">
+												<p class="mt-25">Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+											</div>
+										</div>
+									</li>
+									
+									<li>
+										<div class="timeline-badge">
+											<i class="zmdi zmdi-city-alt font-yellow"></i>
+										</div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-yellow">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Graphic Designer</h4>
+												<span class="duration mb-5">Jan 2013 – Jul 2013</span>
+												<span class="institution">Sagmeester</span>
+											</div>
+											<div class="timeline-body">
+												<p class="mt-25">Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+											</div>
+										</div>
+									</li>
+									<li class="clearfix no-float"></li>
+								</ul>
+							</div>
+						</section>
+						<!--/Experience Sec-->
+										
+						<!--Footer Sec-->
+						<footer class="footer-sec sec-pad-top-sm sec-pad-bottom text-center">
+							<h4>thank you for visiting.</h4>
+							<p class="mt-10">Feisaladitya 2022. All rights reserved.</p>
+								<ul class="social-icons mt-10">
+									<li>
+										<a class="facebook-link" href="#">
+											<i id="tt6" class="zmdi zmdi-facebook"></i>
+											<div class="mdl-tooltip" data-mdl-for="tt6">
+												facebook
+											</div>
+										</a>
+									</li>
+									<li>
+										<a class="linkedin-link" href="#">
+											<i id="tt8" class="zmdi zmdi-linkedin"></i>
+											<div class="mdl-tooltip" data-mdl-for="tt8">
+												linkedin
+											</div>
+										</a>
+									</li>
+									<li>
+										<a class="instagram-link" href="#">
+											<i id="tt10" class="zmdi zmdi-instagram"></i>
+											<div class="mdl-tooltip" data-mdl-for="tt10">
+												instagram
+											</div>
+										</a>
+									</li>
+								</ul>
+											
+						</footer>
+						<!--Footer Sec-->
+					</div>
+				</div>	
+				<!--/Main Content-->
+							
+			</div>	
+		</div>	
+		<!--/Main Wrapper-->
+		
+		<!-- Scripts -->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/material.min.js"></script>
+		<script src="js/jQuery.appear.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/smooth-scroll.js"></script>
+		<script src="js/isotope.js"></script>
+		<script src="js/lightgallery-all.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/froogaloop2.min.js"></script>
+		<script src="js/jquery.slimscroll.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxXt2P7-U38bK0xEFIT-ebZJ1ngK8wjww"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
