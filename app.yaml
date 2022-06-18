@@ -1,0 +1,32 @@
+
+  
+runtime: php74
+
+handlers:
+- url: /styles
+  static_dir: styles
+  
+ - url: /css
+  static_dir: css
+  
+- url: /font
+  static_dir: font
+  
+ - url: /styles
+  static_dir: styles
+  
+- url: /img/(.*\.(gif|png|jpg))
+  static_files: img/\1
+  upload: img/(.*\.(gif|png|jpg))
+  
+ - url: /js
+  static_dir: js
+  
+ - url: /phpmailer
+  static_dir: phpmailer
+  
+- url: /scss
+  static_dir: scss
+  
+- url: /.*
+  script: index.html
